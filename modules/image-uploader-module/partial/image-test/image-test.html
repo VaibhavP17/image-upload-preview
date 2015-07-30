@@ -1,0 +1,9 @@
+<div class="col-md-12">
+Inside the image-test
+<div data-ng-repeat="image in imagesArray">
+	{{image}}
+	<img ng-src="{{image.src}}" desc="{{image.desc}}">
+</div>
+<input type="file" name="file" onchange="angular.element(this).scope().photoChanged(this.files)" />
+        <img ng-src="{{ thumbnail.dataUrl }}" />
+</div>
